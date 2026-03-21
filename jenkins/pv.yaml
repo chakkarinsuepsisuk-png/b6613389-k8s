@@ -6,6 +6,6 @@ spec:
   capacity:
     storage: 2Gi
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteOnce 
   hostPath:
-    path: "/mnt/data/jenkins"
+    path: "/mnt/data/jenkins2"
