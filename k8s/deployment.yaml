@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: my-nginx-web:latest
-        imagePullPolicy: Never
+        image: nginx:alpine
         ports:
         - containerPort: 80
         resources:
